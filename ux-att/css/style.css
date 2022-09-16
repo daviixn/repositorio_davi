@@ -1,0 +1,391 @@
+.dropdown .ir-moodle{
+        transition: .2s;
+    
+}
+.dropdown .ir-moodle:hover{
+        text-shadow: 1px 1px 9px #49b199;
+}
+.none {
+        list-style-type: none;
+}
+
+::-webkit-scrollbar{
+        width: 10px;
+}
+::-webkit-scrollbar-thumb{
+        background-color: #49b199;
+}
+/* reformulamos os butoes */
+.title-fixed{
+        position: fixed;
+        top: 1.2rem;
+        z-index: 2;
+        font-size: 0.8rem;
+        background-color: transparent;
+        text-align: center;
+        display: flex;
+        align-items: center;
+}
+
+.sub-fixed{
+        align-items: center;
+        top: 1rem;
+        font-size: .7rem;
+}
+.sub-fixed p{
+        color: rgba(0, 0, 0, 0.578);
+}
+.container-text-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 40px;
+}
+.btn{
+        display: block;
+        text-align: none;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight:bold;
+        color: #fff;
+        margin: 15px;
+        padding: 15px 20px;
+        border: 1px solid #49b199;
+        max-width: 500px;
+        transition: .3s;
+}
+
+.btn:hover{
+        background-color: #1c9478;
+        letter-spacing: 2px;
+}
+.buttons{
+        display: flex;
+}
+
+
+/* mudamos a cor dos titulos */
+.Titulo{
+        color: #49b199;
+}
+.frases-footer{
+        color: gray;
+        transition: .1s !important;
+}
+.frases-footer:hover{
+        text-decoration: underline;
+        color: blue;
+}
+/*  
+.scroll-up{
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        background-color: #49b199;
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow:1px 2px 15px 5px rgba(0,0,0,0.33);
+        animation: float 2s infinite ease-in-out;
+        opacity: 0.5;
+        transition: .2s;
+}
+.scroll-up:hover{
+        opacity: 1;
+}
+*/
+
+/*final na mudança de titulos*/
+
+@keyframes float{
+        0%{
+                transform: translateY(0);
+        }
+        50%{
+                transform: translateY(5px);
+        }
+}
+.fa-arrow-up{
+        font-size: 3rem;
+        color: black;
+}
+
+/* .sidebar-wrapper::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        clip-path: circle(50% at 1% 87%);
+        z-index: -1;
+        transition: all 1s;
+}.sidebar-wrapper:hover::before{
+        background-color: #fff;
+        clip-path: circle(130.6% at 1% 87%);
+        overflow: hidden;
+} */
+.sidebar-link{
+        position: relative;
+        z-index: 10;
+}
+.sidebar-item:hover .sidebar-link{
+        color: #fff  !important;
+}
+
+.sidebar-item{
+        padding: 0 .5rem;
+        margin-left: -1rem !important;
+        position: relative;
+}
+.sidebar-item::before{
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 5px;
+        left: 2px;
+        background-color: #43833c;
+        transition: .4s;
+        z-index: -1;
+}
+.sidebar-item:hover:before{
+       width: 99%;
+}
+/* .sidebar-item:hover{
+        background-color: #fff;
+        border-radius: 8px;
+} */
+.sidebar-item:hover a{
+        color: #fff;
+        transition: .1s !important;
+        margin-left: 4px;
+}
+.sidebar-item a:hover{
+        font-weight: bold;
+        transition: .1s !important;
+        color: black;
+}
+.has-sub a{
+       color: #274f23;
+}
+.has-sub a:hover{
+        transition: .1s;
+        font-weight: bold;
+        margin-left: 4px;
+}
+.has-sub:hover .sidebar-link{
+        
+        font-weight: 500 !important;
+        transition: .1s;
+}
+/* .has-sub:hover{
+        background-color: #fff;
+        border-radius: 8px;
+} */
+.sidebar-item:hover .link1{
+        font-weight: 500 !important;
+}
+.sidebar-item:hover .link4{
+        font-weight: 500 !important;
+}
+.sidebar-item:hover .link5{
+        font-weight: 500 !important;
+}
+.sidebar-item:hover .link6{
+        font-weight: 500 !important;
+}
+.sub2:hover .inicio{
+        transition: .1s;
+}
+.sub2{
+        height: 3.5rem;
+        overflow: hidden;
+        transition: .4s;
+        text-decoration: none;
+}
+.sub2:hover{
+        height: 10rem;
+}
+.sub3{
+        height: 2.9rem;
+        overflow: hidden;
+        transition: .4s;
+}
+.sub3:hover{
+        height: 10rem;
+}
+
+
+
+
+/* mudanças nas caixa de texto*/
+
+.selva{
+        border-radius: 20px;
+       
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      
+}
+
+.animal{
+        background: rgb(224, 109, 195);
+        height: 3rem;
+        border-radius: 20px;
+        overflow: hidden;
+        transition: .5s;      
+}
+.animal:hover{
+        height: auto;
+}
+.animal2-1:hover{
+        height: auto    ;
+}
+.animal2-2:hover{
+        height:auto;
+}
+.animal:hover .CuriosidadeTitulo{
+        border-radius: 20px 20px 0 0;
+}
+.selva .CuriosidadeTitulo{
+        padding: 0px 10px;
+        background: rgb(187, 19, 145);
+        border-radius: 20px;
+        flex-direction: column;
+        transition: 01s ease-in-out;
+        overflow: hidden;
+}
+
+
+.selva .animal .CuriosidadeTexto{
+        position:relative;
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+     
+}
+
+.CuriosidadeTitulo{
+        color:#fff;
+}
+.CuriosidadeTitulo::before{
+        color: #fff;
+}
+
+.x{
+        color: black;
+        border: none;
+        padding: 0 10px;
+}
+
+.CuriosidadeTitulo::before{
+        display: inline-block;
+        animation: jump 1.1s infinite;
+}
+/*final da caixa de curiosiadade*/
+@keyframes jump {
+        0%{
+                transform: translateY(0);
+        }
+        50%{
+                transform: translateY(-.2rem);
+        }
+        100%{
+                transform: translateY(.3rem);
+        }
+}
+
+
+
+
+
+
+
+ /*barra de progresso da pagina*/
+.progress-container {
+        width: 100%;
+        height: 7px;
+        background: #ccc;
+        position: fixed;
+        top: 4.5;
+}
+/* cor da barra de progresso*/
+.progress-bar {
+        height: 7px;
+         background: #49b199;
+         width: 0%;
+  
+}
+.navbar{
+       position: sticky ;
+       top: 0;
+       background-color: #fff;
+       z-index: 1;
+}
+footer{
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid rgba(128, 128, 128, 0.671);
+        margin-top: 4rem;
+        width: 100%;
+}
+.text-end{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       max-width: 40rem;
+       width: 100%;
+}
+/* responsivo */
+@media  (max-width:990px){
+         .title-fixed2-1{ 
+                font-size: 2.5vw ;
+                margin-left: -10px;
+        } 
+        .dropdown{
+                font-size: 1.3vw;
+        }
+}
+@media (max-width:768px) {
+        .title-fixed{
+                margin-left: 3rem;
+        }
+        .dropdown{
+                font-size: 0;
+        }
+}
+@media (max-width:766px) {
+        .title-fixed2-1{
+                font-size: 1.5rem;
+        }
+}
+@media (max-width:515px) {
+        .title-fixed2-1{
+                font-size: 4.3vw;
+        }
+}
+@media (max-width:420px){
+        .buttons{
+                display: flex;
+                flex-direction: column;
+        }
+}
+@media (max-width:340px) {
+        .sub-fixed{
+                font-size: 3vw;
+        }
+}
+ @media  (max-width:319px){
+        .title-fixed{
+                font-size: 4vw;
+        }
+        .sub-fixed{
+                font-size: 3vw;
+        }
+}
+
+
+
